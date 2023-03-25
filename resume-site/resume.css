@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: rgba(168, 229, 240, 0.5);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+header {
+
+    background-color: rgba(59, 36, 49, 0.8);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: viewport-width;
+}
+.main-text {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: left;
+}
+a {
+
+}
+.page-link {
+    padding: 3em;
+    color: white;
+}
+.resume-download {
+
+}
+.portfolio-external {
+
+}
+hr{
+    color: pink;
+}
+h1 {
+    font-size: 230%;
+
+}
+h2 {
+    font-size: 180%;
+    text-align: center;
+    padding-top: 3vw;
+}
+h3 {
+    font-size: 155%
+    text-align: left;
+    padding-bottom: 0;
+    padding-top: 1vw;
+}
+p {
+    font-size: 130%;
+    font-family: Garamond, serif;
+    spacing: 2em;
+    line-height: 1.5em;
+}
+.intro-page {
+    text-align: center;
+    background: linear-gradient(white, gray);
+    background-image: url(media/dsm-mini-crop.jpg); /* for small screens/RWD */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   @media only screen and (min-width: 600px) { /* for big screens */
+       .intro-page {
+        background-image: url(media/dsm-crop-edit.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 19vw;
+       }
+   }
+.scroll-intro{
+
+}
+.about-me {
+
+}
+.work-history {
+
+}
+.academics {
+
+}
+.portfolio {
+
+}
+.contact {
+
+}
+footer {
+    background-color: rgba(59, 36, 49, 0.8);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: viewport-width;
+    color: white
+}

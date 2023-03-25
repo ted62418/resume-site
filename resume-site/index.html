@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teresa Dreibelbis</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Teresa Dreibelbis">
+        <meta name="description" content="Teresa Dreibelbis resume and web development portfolio">
+        <link rel="stylesheet" type="text/css" href="resume.css" />
+    </head>
+    <body>
+        <header><!--add sticky script-->
+            <a href="#about-me" class="page-link">About Me</a>
+            <a href="#work-history" class="page-link">Work History</a>
+            <a href="#academics" class="page-link">Academics</a>
+            <a href="#portfolio" class="page-link">Portfolio</a>
+            <a href="#contact" class="page-link">Contact</a>
+            <script></script>
+        </header>
+        <section class="intro-page" id="intro">
+            <h1>Teresa Dreibelbis</h1>
+            <p>Welcome to my resume and portfolio!</p>
+        </section>
+        <hr>
+        <div class="main-text">
+        <section class="about-me" id="about-me">
+            <h2>About Me</h2>
+            <p>
+            <script> //to calculate my age and insert into autobiography
+                var dob = new Date("03/07/2000");
+                var month_diff = Date.now() - dob.getTime();
+                var age_dt = new Date(month_diff);
+                var year = age_dt.getUTCFullYear();
+                var age = Math.abs(year-1970);
+                document.write("I'm a " + age + "-year-old ");
+            </script>
+            warehouse worker from Harrisburg, Pennsylvania, USA. Hopefully this will change soon, I'm currently learning web development and Netherlandic. I dream of living in Europe and living every day like a tourist. I enjoy listening to music (especially Eurovision), creating textile art, learning random things, and playing the occasional video game. </p>
+        </section>
+        <hr>
+        <section class="work-history" id="work-history"><!--shorten the web display for mobile??-->
+            <h2>Work History</h2>
+                <p>I have worked for 5 years in warehouses, almost 2 years in customer service, and a summer in a restaurant; more details and a PDF below:</p>
+                <p>Download PDF version of resume <!-- <a href="stick upload url here"--> </p>
+            <h3>UPS (MDT airport)</h3>
+                <p class="role">Package Sorter, Dangerous Goods Auditor, Scanner, Floater</p>
+                <p class="date">June 2022-March 2023</p>
+            <h3>Universal Protective Packaging, Inc.</h3>
+                <p class="role">Material Handler, Machine Operator</p>
+                <p class="date">March 2020-May 2022</p>
+            <h3>Tex Visions</h3>
+                <p class="role">Sewing Machine Operator</p>
+                <p class="date">April 2019-August 2020</p>
+            <h3>Diener's Restaurant</h3>
+                <p class="role">Dishwasher</p>
+                <p class="date">April 2019-September 2019</p>
+            <h3>D. B. Schenker</h3>
+                <p class="role">Material Handler</p>
+                <p class="date">August 2018-March 2019</p>
+            <h3>Joseph T. Simpson Public Library</h3>
+                <p class="role">Library Aide</p>
+                <p class="date">May 2017-September 2018</p>
+        </section>
+        <hr>
+        <section class="academics" id="academics">
+            <h2>Academics</h2>
+            <h3>High School:</h3>
+                <p>I skipped 8th grade, attended cyber school, Grier School, and Cumberland Valley High School among others. I graduated from CVHS with a 3.5 GPA and above-average SAT score.</p>
+            <h3>College:</h3>
+                <p>I worked almost full-time until I was 20 and realized that I could go to college for free with state funding. I was overly motivated, took 18 credits online, and ended up taking a full time job during the pandemic. Needless to say I got burnout and dropped out after getting 30+ general education and technology credits and a 3.6 GPA. </p>
+            <h3>Post-College:</h3>
+                <p>I finally recovered from the burnout! Taking a spontaneous trip to Iowa last year woke me up to the fact that I have a life to live, so I began learning web development and Dutch with plans to go to Europe later in 2023.</p>
+        </section>
+        <hr>
+        <section class="portfolio" id="porfolio">
+        <h2>Portfolio</h2>
+        <p>When I have created a few projects I'll start linking them here :)</p>
+        <p>random idea, make webpage to brag about artwork/photos etc</p>
+        </section>
+        <hr>
+        <section class="contact" id="portfolio">
+            <h2>Contact</h2>
+            <p>Here's my contact info lorem ipsum etc</p>
+            <p>Now here's where you can just send me an email from my page, but I forget how to set it up.</p>
+        </section>
+        </div><!--end main text margins etc-->
+        <footer>
+        <p>non-copyright 2023 by Teresa Dreibelbis</p>
+        <p>the background image may be used without permission, that's my favorite picture from Des Moines!</p>
+        </footer>
+    </body>
+</html>
