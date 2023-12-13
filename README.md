@@ -1,4 +1,2 @@
 # resume-site
-
-currently learning programming so please don't go crazy in the comments yet
-Feel free to use the images, credit would be appreciated
+I'm new to coding so there will most definitely be bugs, I'll fix them eventually. Please make an effort to credit me if you reuse my images
